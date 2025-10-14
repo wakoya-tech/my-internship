@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Form</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Register</h2>
+    <form id="registerForm">
+      <label>Name:</label>
+      <input type="text" id="name" required />
+      <span class="error" id="nameError"></span>
+
+      <label>Email:</label>
+      <input type="email" id="email" required />
+      <span class="error" id="emailError"></span>
+
+      <label>Phone:</label>
+      <input type="tel" id="phone" required />
+      <span class="error" id="phoneError"></span>
+
+      <label>Password:</label>
+      <input type="password" id="password" required />
+      <span class="error" id="passwordError"></span>
+
+      <button type="submit">Submit</button>
+      <p class="success" id="successMsg"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

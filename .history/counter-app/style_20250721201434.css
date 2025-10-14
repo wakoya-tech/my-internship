@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .counter {
+    background: white;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .buttons button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #increment { background-color: green; color: white; }
+  #decrement { background-color: red; color: white; }
+  #reset { background-color: orange; color: white; }
+  

@@ -1,0 +1,19 @@
+{
+  "name": "responsive-landing-page",
+  "version": "1.0.0",
+  "main": "script.js",
+  "homepage": "https://yourusername.github.io/codveda-frontend-tasks/level-1/responsive-landing-page",
+
+"scripts": {
+  "predeploy": "echo 'No build step needed'",
+  "deploy": "gh-pages -d ."
+}
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Wakoya Daba",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
