@@ -10,6 +10,7 @@ function SearchUser() {
   const fetchUser = async () => {
     setLoading(true);
     setError(null);
+    
     try {
       const response = await axios.get(`https://api.github.com/users/${username}`);
       setUserData(response.data);
